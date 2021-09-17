@@ -1,0 +1,3 @@
+[submodule "SpringBoard_DS_track/SpringBoard_DS_track/DataScienceGuidedCapstone"]
+	path = SpringBoard_DS_track/SpringBoard_DS_track/DataScienceGuidedCapstone
+	url = https://github.com/wh2353/DataScienceGuidedCapstone.git

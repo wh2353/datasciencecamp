@@ -1,0 +1,10 @@
+NCBI_API=# get api key from your .env file
+import os
+#!pip install python-dotenv
+
+from dotenv import load_dotenv
+
+load_dotenv()
+API_KEY = os.getenv('NASDAQ_API_KEY')
+
+#print(API_KEY)61817d0fe1f57b4536319d42a03f393fb308

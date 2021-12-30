@@ -8,5 +8,12 @@ I utilized Kaggle [Cardiovascular Disease Dataset](https://www.kaggle.com/sulian
 <b>Method:</b> I utilized the NCBI API to request all the publications between 2020 and 2021 with 'cardiovascular' in the title, scraped in total 64,801 keywords from 17,632 records, obtained frequecy of each unique keywords, grouped similar keywords through fuzzy match and visualized Top 100 most frequeny keywords with word cloud.<br>
 <b>Result:</b><br><img src="word_cloud.png" width="400" height=200><br>
 Based on the word cloud above, it seems latest cardiovascular researches are focused on COVID (which is obvious but not included in the Kaggle dataset), as well as hypertension, diabetes, atherosclerosis, obseity, which correspond to CVD risk factors Systolic/Diastolic blood pressures, Glucose, Cholesterol, Height/Weight, respectively.<br>
-<b>Script:</b> {LINK TO IPYTHON NOTEBOOK}
+<b>Script:</b> {LINK TO IPYTHON NOTEBOOK}<br>
+### Part 2. Exploration on Kaggle [Cardiovascular Disease Dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset)<br>
+<b>Method:</b><br>1. Check if there is any missing values<br>
+2. Check whether there are abnormal values for the features, and filter them out.<br>
+3. Feature engineering includes combining body and weight into a new variable BMI and applying catboost encoder to all categorical variables.<br>
+4. Check if positive (1) and negative (0) labels are balanced.<br>
+
+
 

@@ -1,2 +1,3 @@
-<img src="cardiovascular_data.jpg" width="1500" height=300>
+<img src="cardiovascular_data.jpg" width="1500" height=300><br>
 # Cardiovascular Disease Prediction
+*<p align='left'> Cardiovascular diseases (CVD) is the leading cause of death in the United States and it is estimated that 659,000 Americans die from CVD each year. The cause of CVD is complicated and risk factors that contribute to CVD are still unclear. Thus it is imperative to identify the direct indicators for cardiovascular disease in order to facilitate CVD diagnosis and treatment. In this project, I explored the relationship among a few potential cardiovascular risk factors, then checked on their predictibility against CVD through various machine learning models.</p>*

@@ -1,1 +1,2 @@
-![Data](cardiovascular_data.jpg | height=200)
+<img src="cardiovascular_data.jpg" width="1500" height=300>
+# Cardiovascular Disease Prediction

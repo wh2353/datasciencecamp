@@ -1,1 +1,1 @@
-![Data](cardiovascular_data.jpg)
+![Data](cardiovascular_data.jpg | height=200)

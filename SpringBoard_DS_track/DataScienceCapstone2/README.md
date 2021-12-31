@@ -38,3 +38,14 @@ Method 2 data shape: Train: (54870, 9), Test: (13718, 9)<br>
 Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 <b>Script:</b> {LINK TO IPYTHON NOTEBOOK}<br></p>
 
+## 5. Modeling
+<p align='left'><b>Method:</b>Each of three types of data generated from Data Preprocessing step are utlized to train the following models:<br>
+  1. Regularized Logistic Regression;<br>
+  2. Support Vector Machine;<br>
+  3. Random Forest Classifier;<br>
+  4. XGBoost Classifier;<br>
+  5. Multilayer Perceptron Neural Network;<br>
+  <b>Random search</b> is applied to model 1, 5, <b>Bayesian Optimization</b> is used for model 2,3,4 for hyperparameter tuning.<br></p>
+
+  
+  

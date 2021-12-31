@@ -21,7 +21,7 @@ After preprocessing, the trimmed dataset shape is (68588 X 11). As shown in the 
 <b>Method:</b> I performed PCA and t-SNE to see whether the positive (1) and negative (0) samples can be separated in 2 dimensions. In addition, I checked if any of the features are significantly different between healthy and diseased groups.<br>
 <b>Results:</b><br>
 <img src="eda_PCA.png" width=300 height=250>  <img src="eda_tSNE.png" width=300 height=250><br>
-Both PCA and t-SNE are not able to separate normal (0) and diseased (1) samples in 2D space.
+Both PCA and t-SNE are not able to separate normal (0) and diseased (1) samples in 2D space.<br><br>
 <img src="eda_barplot_ap.png" width=300 height=250>  <img src="eda_barplot_cat.png" width=300 height=250><br>
 High and low blood pressure (ap_hi and ap_lo) as well as cholestrol level appear to be different between normal and diseased groups.
 <b>Script:</b> {LINK TO IPYTHON NOTEBOOK}<br>

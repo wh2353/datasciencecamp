@@ -23,7 +23,7 @@ After preprocessing, the trimmed dataset shape is (68588 X 11). As shown in the 
 <img src="eda_PCA.png" width=300 height=250>  <img src="eda_tSNE.png" width=300 height=250><br>
 Both PCA and t-SNE are not able to separate normal (0) and diseased (1) samples in 2D space.<br><br>
 <img src="eda_barplot_ap.png" width=300 height=250>  <img src="eda_barplot_cat.png" width=300 height=250><br>
-High and low blood pressure (ap_hi and ap_lo) as well as cholestrol level appear to be different between normal and diseased groups.
+High and low blood pressure (ap_hi and ap_lo) as well as cholestrol level appear to be different between normal and diseased groups.<br>
 <b>Script:</b> {LINK TO IPYTHON NOTEBOOK}<br>
 
 

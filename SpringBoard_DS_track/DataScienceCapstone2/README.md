@@ -51,7 +51,7 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 
 | Model | Accuracy | Precision | Recall | AUC |
 |---------------| -------------- | -------------- | -------------- | -------------- |
-| Regulized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Regularized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Support Vector Machine | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Random Forest Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | XGBoot Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
@@ -62,7 +62,7 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 
 | Model | Accuracy | Precision | Recall | AUC |
 |---------------| -------------- | -------------- | -------------- | -------------- |
-| Regulized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Regularized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Support Vector Machine | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Random Forest Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | XGBoot Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
@@ -73,7 +73,7 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 
 | Model | Accuracy | Precision | Recall | AUC |
 |---------------| -------------- | -------------- | -------------- | -------------- |
-| Regulized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Regularized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Support Vector Machine | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Random Forest Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | XGBoot Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |

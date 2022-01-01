@@ -79,3 +79,4 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 | XGBoot Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Multilayer Perceptron | Content Cell  | Content Cell  | Content Cell  | Content Cell  |<br>
   
+## 6. Conclusion

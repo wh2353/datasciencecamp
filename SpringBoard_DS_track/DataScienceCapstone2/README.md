@@ -46,6 +46,36 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
   4. XGBoost Classifier;<br>
   5. Multilayer Perceptron Neural Network;<br>
   <b>Random search</b> is applied to model 1, 5, <b>Bayesian Optimization</b> is used for model 2,3,4 for hyperparameter tuning.<br></p>
+<b>Results:</b><br>
+<b>Catboost Encoding data</b><br>
 
-  
+| Model | Accuracy | Precision | Recall | AUC |
+|---------------| -------------- | -------------- | -------------- | -------------- |
+| Regulized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Support Vector Machine | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Random Forest Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| XGBoot Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Multilayer Perceptron | Content Cell  | Content Cell  | Content Cell  | Content Cell  |<br>
+
+                        
+<b>Catboost Encoding plus PCA</b><br>
+
+| Model | Accuracy | Precision | Recall | AUC |
+|---------------| -------------- | -------------- | -------------- | -------------- |
+| Regulized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Support Vector Machine | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Random Forest Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| XGBoot Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Multilayer Perceptron | Content Cell  | Content Cell  | Content Cell  | Content Cell  |<br>
+
+                      
+<b>Featuretools synthesized features</b><br>
+
+| Model | Accuracy | Precision | Recall | AUC |
+|---------------| -------------- | -------------- | -------------- | -------------- |
+| Regulized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Support Vector Machine | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Random Forest Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| XGBoot Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Multilayer Perceptron | Content Cell  | Content Cell  | Content Cell  | Content Cell  |<br>
   

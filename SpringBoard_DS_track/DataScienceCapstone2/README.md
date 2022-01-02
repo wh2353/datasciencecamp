@@ -51,10 +51,10 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 
 | Model | Accuracy | Precision | Recall | AUC |
 |---------------| -------------- | -------------- | -------------- | -------------- |
-| Regularized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Regularized Logistic Regression | 0.7314  | 0.7934  | 0.7125  | 0.7301  |
 | Support Vector Machine | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Random Forest Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| XGBoot Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Random Forest Classifier | 0.7363  | 0.7884  | 0.7208 | 0.7353 |
+| XGBoot Classifier | 0.7392  | 0.7893  | 0.7242  | 0.7382  |
 | Multilayer Perceptron | Content Cell  | Content Cell  | Content Cell  | Content Cell  |<br>
 
                         
@@ -62,10 +62,10 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 
 | Model | Accuracy | Precision | Recall | AUC |
 |---------------| -------------- | -------------- | -------------- | -------------- |
-| Regularized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Regularized Logistic Regression | 0.7268 | 0.7124 | 0.7417 | 0.7271 |
 | Support Vector Machine | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Random Forest Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| XGBoot Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Random Forest Classifier | 0.7231 | 0.7591 | 0.7154 | 0.7224 |
+| XGBoot Classifier | 0.7216 | 0.7458  | 0.7188  | 0.7211  |
 | Multilayer Perceptron | Content Cell  | Content Cell  | Content Cell  | Content Cell  |<br>
 
                       
@@ -73,10 +73,10 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 
 | Model | Accuracy | Precision | Recall | AUC |
 |---------------| -------------- | -------------- | -------------- | -------------- |
-| Regularized Logistic Regression | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Regularized Logistic Regression | 0.7249  | 0.7050  | 0.7425  | 0.7253  |
 | Support Vector Machine | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Random Forest Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| XGBoot Classifier | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Random Forest Classifier | 0.7316  | 0.7483  | 0.7316  | 0.7313  |
+| XGBoot Classifier | 0.7357 | 0.8140  | 0.7102  | 0.7342 |
 | Multilayer Perceptron | Content Cell  | Content Cell  | Content Cell  | Content Cell  |<br>
   
 ## 6. Conclusion

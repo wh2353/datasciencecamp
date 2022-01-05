@@ -81,5 +81,5 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
   
 ## 6. Conclusion
 Based on the results in Section 5, Catboost encoding data with XGBoost Classifier renders the best results of AUC = 0.7382. The ROC curve is shown below:<br>
-<img src="ROC_XGBoost.png" width=300 height=250><br> 
+<img src="ROC_XGBoost.png" width=300 height=220><br> 
 Future works will be focused on fine tuning models of interest, especially the Multilayer Perceptron neural network. In addition, novel feature engineering methods or new machine learning models may also be tested. 

@@ -45,7 +45,7 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
   3. Random Forest Classifier;<br>
   4. XGBoost Classifier;<br>
   5. Multilayer Perceptron Neural Network;<br>
-  <b>Random search</b> is applied to model 1, 5, <b>Bayesian Optimization</b> is used for model 2,3,4 for hyperparameter tuning.<br></p>
+  <b>Random search</b> is applied to model 1, 5; <b>Bayesian Optimization</b> is used for model 2,3,4 for hyperparameter tuning.<br></p>
 <b>Results:</b><br>
 <b>Catboost Encoding data</b><br>
 

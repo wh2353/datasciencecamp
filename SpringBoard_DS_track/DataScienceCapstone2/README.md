@@ -8,15 +8,13 @@ I utilized Kaggle [Cardiovascular Disease Dataset](https://www.kaggle.com/sulian
 <b>Method:</b> I utilized the NCBI API to request all the publications between 2020 and 2021 with 'cardiovascular' in the title, scraped in total 64,801 keywords from 17,632 records, obtained frequecy of each unique keywords, grouped similar keywords through fuzzy match and visualized Top 100 most frequeny keywords with word cloud.<br>
 <b>Result:</b><br><img src="word_cloud.png" width="400" height=200><br>
 Based on the word cloud above, it seems latest cardiovascular researches are focused on COVID (which is obvious but not included in the Kaggle dataset), as well as hypertension, diabetes, atherosclerosis, obseity, which correspond to CVD risk factors Systolic/Diastolic blood pressures, Glucose, Cholesterol, Height/Weight, respectively.<br>
-<b>Script:</b> {LINK TO IPYTHON NOTEBOOK}<br>
 ### Part 2. Exploration on Kaggle [Cardiovascular Disease Dataset](https://www.kaggle.com/sulianova/cardiovascular-disease-dataset)<br>
 <p align='left'><b>Method:</b><br>
 1. Check missing values, range of each variable and correlations among features and balance of positive (1) and negative (0) labels through pandas-profiling.<br>
 2. Filtering out records with features of abnormal values.
 3. Feature engineering includes combining body and weight into a new variable BMI and applying catboost encoder to all categorical variables.<br>
 <b>Results:</b><br><img src="eda_correlation.png" width="50%" height="50%"><br>
-After preprocessing, the trimmed dataset shape is (68588 X 11). As shown in the heatmap above, there are no correlation among features except for a few apparent relationships: 1) Positive correlation between high (ap_hi) and low (ap_lo) blood pressures; 2) Gender bias in those who smoke or drink (likely more men than women); 3) Those who consume alcohol tend to smoke as well (Strong positive correlations)<br>
-<b>Script:</b> {LINK TO IPYTHON NOTEBOOK}<br></p>
+After preprocessing, the trimmed dataset shape is (68588 X 11). As shown in the heatmap above, there are no correlation among features except for a few apparent relationships: 1) Positive correlation between high (ap_hi) and low (ap_lo) blood pressures; 2) Gender bias in those who smoke or drink (likely more men than women); 3) Those who consume alcohol tend to smoke as well (Strong positive correlations)<br></p>
 
 ## 3. Exploratory Data Analysis (EDA)
 <p align='left'><b>Method:</b> I performed PCA and t-SNE to see whether the positive (1) and negative (0) samples can be separated in 2 dimensions. In addition, I checked if any of the features are significantly different between healthy and diseased groups.<br>
@@ -24,8 +22,7 @@ After preprocessing, the trimmed dataset shape is (68588 X 11). As shown in the 
 <img src="eda_PCA.png" width=300 height=250>  <img src="eda_tSNE.png" width=300 height=250><br>
 Both PCA and t-SNE are not able to separate normal (0) and diseased (1) samples in 2D space.<br><br>
 <img src="eda_barplot_ap.png" width=300 height=250>  <img src="eda_barplot_cat.png" width=300 height=250><br>
-High and low blood pressure (ap_hi and ap_lo) as well as cholestrol level appear to be different between normal and diseased groups.<br>
-<b>Script:</b> {LINK TO IPYTHON NOTEBOOK}<br></p>
+High and low blood pressure (ap_hi and ap_lo) as well as cholestrol level appear to be different between normal and diseased groups.<br></p>
 
 ## 4. Data Preprocessing
 <p align='left'><b>Method:</b> Data are preprocessing with three different methods:<br>
@@ -35,8 +32,7 @@ High and low blood pressure (ap_hi and ap_lo) as well as cholestrol level appear
 <b>Results:</b><br>
 Method 1 data shape: Train: (54870, 11), Test: (13718, 11)<br>
 Method 2 data shape: Train: (54870, 9), Test: (13718, 9)<br>
-Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
-<b>Script:</b> {LINK TO IPYTHON NOTEBOOK}<br></p>
+Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br></p>
 
 ## 5. Modeling
 <p align='left'><b>Method:</b>Each of three types of data generated from Data Preprocessing step are utlized to train the following models:<br>
@@ -83,3 +79,11 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 Based on the results in Section 5, Catboost encoding data with XGBoost Classifier renders the best results of AUC = 0.7382. The ROC curve is shown below:<br>
 <img src="ROC_XGBoost.png" width=300 height=220><br> 
 Future works will be focused on fine tuning models of interest, especially the Multilayer Perceptron neural network. In addition, novel feature engineering methods or new machine learning models may also be tested. 
+
+## 7. Link to Scripts
+1. [API and Web Scraping]()
+2. [Data Wrangling]()
+3. [EDA]()
+4. [Data Preprocessing]()
+5. [Modeling PartI]()
+6. [Modeling Multilayer Perceptron]()

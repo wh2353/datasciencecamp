@@ -54,7 +54,7 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 | Regularized Logistic Regression | 0.7314  | 0.7934  | 0.7125  | 0.7301  |
 | Support Vector Machine | 0.7377  | 0.8016 | 0.7173 | 0.7364 |
 | Random Forest Classifier | 0.7363  | 0.7884  | 0.7208 | 0.7353 |
-| XGBoot Classifier | 0.7392  | 0.7893  | 0.7242  | 0.7382  |
+| XGBoost Classifier | 0.7392  | 0.7893  | 0.7242  | 0.7382  |
 | Multilayer Perceptron | 0.7354 | 0.7809 | 0.7266 | 0.7345 |<br>
 
                         
@@ -65,7 +65,7 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 | Regularized Logistic Regression | 0.7268 | 0.7124 | 0.7417 | 0.7271 |
 | Support Vector Machine | 0.7244 | 0.7501  | 0.7133  | 0.7212 |
 | Random Forest Classifier | 0.7231 | 0.7591 | 0.7154 | 0.7224 |
-| XGBoot Classifier | 0.7216 | 0.7458  | 0.7188  | 0.7211  |
+| XGBoost Classifier | 0.7216 | 0.7458  | 0.7188  | 0.7211  |
 | Multilayer Perceptron | 0.7222 | 0.7498  | 0.7165 | 0.7221 |<br>
 
                       
@@ -76,7 +76,10 @@ Method 3 data shape: Train: (54870, 226), Test: (13718, 226)<br>
 | Regularized Logistic Regression | 0.7249  | 0.7050  | 0.7425  | 0.7253  |
 | Support Vector Machine | 0.7388 | 0.7495 | 0.7152  | 0.7301 |
 | Random Forest Classifier | 0.7316  | 0.7483  | 0.7316  | 0.7313  |
-| XGBoot Classifier | 0.7357 | 0.8140  | 0.7102  | 0.7342 |
+| XGBoost Classifier | 0.7357 | 0.8140  | 0.7102  | 0.7342 |
 | Multilayer Perceptron | 0.7362 | 0.7455 | 0.7123  | 0.7324 |<br>
   
 ## 6. Conclusion
+Based on the results in Section 5, Catboost encoding data with XGBoost Classifier renders the best results of AUC = 0.7382. The ROC curve is shown below:<br>
+<img src="ROC_XGBoost.png" width=300 height=250><br> 
+Future works will be focused on fine tuning models of interest, especially the Multilayer Perceptron neural network. In addition, novel feature engineering methods or new machine learning models may also be tested. 
